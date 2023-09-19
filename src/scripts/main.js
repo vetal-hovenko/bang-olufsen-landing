@@ -8,7 +8,7 @@ function onEntry(entry) {
   });
 }
 
-const options = { threshold: [0.7] };
+const options = { threshold: [0.2] };
 const observer = new IntersectionObserver(onEntry, options);
 const elements = document.querySelectorAll('.animated-block');
 
